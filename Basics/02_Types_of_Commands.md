@@ -70,3 +70,22 @@ DQL commands are used to **retrieve data from the database**.
 
 **Common Commands:**
 - `SELECT` → Fetches data from one or more tables
+
+
+
+## SQL vs NoSQL Databases
+
+| Aspect | SQL Databases | NoSQL Databases |
+|---|---|---|
+| **Data Model** | Relational (table-based) | Non-relational (document, key-value, graph, column-based) |
+| **Structure** | Structured data stored in rows and columns | Unstructured or semi-structured data |
+| **Schema** | Fixed schema (predefined structure) | Flexible schema (dynamic structure) |
+| **Query Language** | Uses SQL for querying data | Uses various query methods (e.g., JSON-like queries) |
+| **Scalability** | Vertically scalable (add more resources to one server) | Horizontally scalable (add more servers/nodes) |
+| **ACID Compliance** | Strong ACID compliance (Atomicity, Consistency, Isolation, Durability) | Eventual consistency (some NoSQL databases support ACID) |
+| **Use Cases** | Suitable for complex queries and transactional data | Ideal for large-scale data, real-time analytics, and big data |
+| **Examples** | PostgreSQL, MySQL, Oracle, SQL Server | MongoDB, Cassandra, Redis, Couchbase |
+| **Performance** | Optimized for structured data and complex queries | Optimized for large volumes of data and fast reads/writes |
+| **Relationships** | Supports relationships between tables (foreign keys) | Stores data without predefined relationships |
+| **Data Integrity** | Ensures high data integrity and consistency | Prioritizes scalability and speed over strict consistency |
+| **Transactions** | Supports multi-row transactions | Limited or no support for multi-document transactions |
