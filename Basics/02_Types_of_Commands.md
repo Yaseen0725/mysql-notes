@@ -25,22 +25,48 @@ flowchart TB
 
   ## SQL Command Types
 
-- **DDL (Data Definition Language)**  
-  Used to **define and manage the structure** of the database, such as creating, modifying, or deleting tables and other database objects.  
-  **Examples:** `CREATE`, `ALTER`, `DROP`, `TRUNCATE`
+### 1. DDL (Data Definition Language)
+DDL commands are used to **define, modify, and remove the structure of database objects** such as tables, schemas, indexes, and databases.
 
-- **DML (Data Manipulation Language)**  
-  Used to **insert, update, and delete data** stored inside database tables.  
-  **Examples:** `INSERT`, `UPDATE`, `DELETE`
+**Common Commands:**
+- `CREATE` → Creates a new table, database, or object
+- `ALTER` → Modifies the structure of an existing table
+- `DROP` → Deletes a table or database permanently
+- `TRUNCATE` → Removes all records from a table without deleting the table structure
 
-- **TCL (Transaction Control Language)**  
-  Used to **manage transactions** in the database, allowing changes to be saved or undone.  
-  **Examples:** `COMMIT`, `ROLLBACK`, `SAVEPOINT`
+---
 
-- **DCL (Data Control Language)**  
-  Used to **control user access and permissions** in the database.  
-  **Examples:** `GRANT`, `REVOKE`
+### 2. DML (Data Manipulation Language)
+DML commands are used to **manipulate the data stored inside database tables**.
 
-- **DQL (Data Query Language)**  
-  Used to **retrieve data** from the database.  
-  **Examples:** `SELECT`
+**Common Commands:**
+- `INSERT` → Adds new records into a table
+- `UPDATE` → Modifies existing records
+- `DELETE` → Removes specific records from a table
+
+---
+
+### 3. TCL (Transaction Control Language)
+TCL commands are used to **manage transactions in the database**, ensuring data consistency and control over changes.
+
+**Common Commands:**
+- `COMMIT` → Saves all changes permanently
+- `ROLLBACK` → Undoes changes made in the current transaction
+- `SAVEPOINT` → Creates a point to which a transaction can be rolled back
+
+---
+
+### 4. DCL (Data Control Language)
+DCL commands are used to **control access and permissions** for database users.
+
+**Common Commands:**
+- `GRANT` → Gives privileges to users
+- `REVOKE` → Removes privileges from users
+
+---
+
+### 5. DQL (Data Query Language)
+DQL commands are used to **retrieve data from the database**.
+
+**Common Commands:**
+- `SELECT` → Fetches data from one or more tables
