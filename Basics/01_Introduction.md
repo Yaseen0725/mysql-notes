@@ -22,7 +22,7 @@ Relational databases mein data **Tables** ke form mein store hota hai.
 | 1 | Yaseen | 25 | COMPUTER SCIENCE |
 | 2 | Tauqeer Manzar | 23 | COMPUTER SCIENCE |
 | 3 | Sarfraz| 23 | COMPUTER SCIENCE |
-| 4 | Zubair | 22 | COMPUTER SCIENCE |
+| 4 | Zubair Alam | 22 | COMPUTER SCIENCE |
 | 3 | Saifullah| 23 | COMPUTER SCIENCE |
 | 4 | Janishar | 22 | COMPUTER SCIENCE |
 
