@@ -1,4 +1,4 @@
-# Lesson 6: Delete Rows and Columns in SQL
+# Lesson 7: Delete Rows and Columns in SQL
 
 In this lesson, we will learn how to delete rows and columns from a table in PostgreSQL.
 
