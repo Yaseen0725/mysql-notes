@@ -1,4 +1,4 @@
-# Lesson 4: Inserting Data in Table in SQL
+# Lesson 5: Inserting Data in Table in SQL
 
 In this lesson, we will learn how to insert data into a table.
 
