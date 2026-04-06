@@ -1,4 +1,4 @@
-# Lesson 7: Data Types and Constraints in SQL
+# Lesson 3: Data Types and Constraints in SQL
 
 In this lesson, we will learn about **SQL data types** and **constraints**.
 
