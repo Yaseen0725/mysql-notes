@@ -1,4 +1,4 @@
-# Lesson 3: Create Database and Table in SQL
+# Lesson 4: Create Database and Table in SQL
 
 In this lesson, we will learn how to create a database and a table in SQL using PostgreSQL.
 
