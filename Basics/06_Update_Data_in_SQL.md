@@ -1,4 +1,4 @@
-# Lesson 8: Update Data in SQL
+# Lesson 6: Update Data in SQL
 
 In this lesson, we will learn how to update existing data in a table using the `UPDATE` statement.
 
